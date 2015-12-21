@@ -9,9 +9,9 @@ var expect = require('chai').expect
 it('should instantiate the Calculator', function(){
   var dummyOperators = {a:0,b:0};
 
-  var logger = createCalculator(dummyOperators);
+  var calc = createCalculator(dummyOperators);
 
-  expect(logger).to.be.an('object');
+  expect(calc).to.be.an('object');
 });
 
 // This is a Fake
